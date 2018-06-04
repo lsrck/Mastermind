@@ -13,8 +13,8 @@ class Board
 										 X X X X X
 										 )
 		@random_combination = []
-		5.times do |x| 
-		@random_combination << rand(6)
+			5.times do |x| 
+		@random_combination << [0,1,2,3,4,5].sample
 		end
 	binding.pry
 	print_case_value

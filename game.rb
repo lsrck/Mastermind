@@ -7,6 +7,8 @@ class Game
 
 	def initialize
 		puts "Let's playe Mastermind!"
+		puts "You have to guess the computer secret combination"
+		puts "Combination is composed of 4  differents figures bewteen 0 to 5"
 		puts "Please enter your name"
 		player_name = gets.chomp
 		@player = Player.new(player_name)
